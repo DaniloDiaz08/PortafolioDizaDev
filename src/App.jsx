@@ -2,10 +2,10 @@ import { useState } from 'react'
 
 import Home from './pages/Home'
 import About from './pages/About'
-import projects from './pages/projects'
-import ContactS from './pages/Contact'
-import { BrowserRouter, Route, Routes } from 'react-router-dom'
+import Word from './pages/Word'
 import Contact from './pages/Contact'
+import { BrowserRouter, Route, Routes } from 'react-router-dom'
+import '../src/Styles/App.css'  
 
 const App = () => {
   return (
@@ -14,8 +14,8 @@ const App = () => {
         <Routes>
           <Route path='/' element={<Home/>} />
           <Route path='/About' element={<About/>} />
-          <Route path='/Projects' element={<projects/>} />
-          <Route path='/Cotact' element={<Contact/>} />
+          <Route path='/Word' element={<Word/>} />
+          <Route path='/Contact' element={<Contact/>} />
         </Routes> 
     </BrowserRouter>
    </>
