@@ -1,5 +1,4 @@
 import React from 'react'
-import catflow from '../assets/Catflow.png.png'
 import Nav from '../components/Nav'
 
 const About = () => {
@@ -7,8 +6,8 @@ const About = () => {
     <>
     <Nav/>
     <div>
-      <h2>Cristhian Danilo Díaz Pérez</h2>
-      <img className='catflow z-30 hidden lg:block lg:w-9/12' src={catflow} alt="" />
+      <h2>Sobre mi</h2>
+      <img className='catflow z-30 hidden lg:block lg:w-9/12' src="" alt="" />
     </div>
     </>
   )
