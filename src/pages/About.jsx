@@ -6,7 +6,7 @@ const About = () => {
     <>
     <Nav/>
     <div>
-      <h2>Sobre mi</h2>
+      <h2 className='text-white'>Sobre mi</h2>
       <img className='catflow z-30 hidden lg:block lg:w-9/12' src="" alt="" />
     </div>
     </>
