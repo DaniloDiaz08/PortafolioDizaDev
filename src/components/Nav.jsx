@@ -18,22 +18,22 @@ const Nav = () => {
         <p className=" text-white font-Fredoka text-4xl">BIENVENIDOS</p>
             <Link to="/" className="center flex-row ">
             <p className="text-5xl content-center w-10 "/>
-            <span className=" text-center font-Fredoka text-emerald-50 text-xl bg-cyan-400 p-2 px-5 rounded-lg">Home</span>
+            <span className=" text-center font-Fredoka text-emerald-50 text-xl bg-[#00C4CC] p-2 px-5 rounded-lg border-4 border-white hover:border-[#00C4CC]  hover:bg-white hover:text-black ">Home</span>
             </Link>
 
             <Link to="/About" className="center ">
             <p className="text-5xl content-center w-10 "/>
-            <span className=" text-center font-Fredoka text-emerald-50 text-xl bg-cyan-400 p-2 px-5 rounded-lg">About me</span>
+            <span className=" text-center font-Fredoka text-emerald-50 text-xl bg-[#00C4CC] p-2 px-5 rounded-lg border-4 border-white hover:border-[#00C4CC]  hover:bg-white hover:text-black">About me</span>
             </Link>
 
             <Link to="/Word" className="center ">
             <p className="text-5xl content-center w-10 "/>
-            <span className=" text-center font-Fredoka text-emerald-50 text-xl bg-cyan-400 p-2 px-5 rounded-lg">Projects</span>
+            <span className=" text-center font-Fredoka text-emerald-50 text-xl bg-[#00C4CC] p-2 px-5 rounded-lg border-4 border-white hover:border-[#00C4CC]  hover:bg-white hover:text-black">Projects</span>
             </Link>
 
             <Link to="/Contact" className="center ">
             <p className="text-5xl content-center w-10 "/>
-            <span className="  text-center font-Fredoka text-emerald-50 text-xl bg-cyan-400 p-2 px-5 rounded-lg">Contact</span>
+            <span className="  text-center font-Fredoka text-emerald-50 text-xl bg-[#00C4CC] p-2 px-5 rounded-lg border-4 border-white hover:border-[#00C4CC]  hover:bg-white hover:text-black">Contact</span>
             </Link>
         </div>
 
