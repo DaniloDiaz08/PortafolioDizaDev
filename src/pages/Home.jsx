@@ -12,13 +12,13 @@ const Home = () => {
         <div className='grid grid-col-4 p-24 m-0'>
           <div className=' col-span-2 rounded-l-3xl h-screen w-full bg-white items-center'>
             <div>
-              <h1 className=' text-center font-Fredoka text-black  p-24 text-4xl  hover:text-[#00C4CC]'>CRISTHIAN DANILO DÍAZ PÉREZ</h1>
+              <h1 className=' text-center font-Fredoka text-black  p-8 text-2xl  hover:text-[#00C4CC]'>CRISTHIAN DANILO DÍAZ PÉREZ</h1>
             </div>
             <div>
-              <img className=' m-auto scale-150 hover:' src={Gatito} alt="Gatoflow" />
+              <img className=' m-auto scale-120 hover:' src={Gatito} alt="Gatoflow" />
             </div>
             <div>
-              <p className=' text-center m-auto col-span-2 p-32 font-Ubuntu text-black text-3xl hover:text-[#00C4CC]'>"Nada es Imposible"</p>
+              <p className=' text-center m-auto col-span-2 p-16 font-Ubuntu text-black text-2xl hover:text-[#00C4CC]'>"Nada es Imposible"</p>
             </div>
 
           </div>
